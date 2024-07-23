@@ -74,7 +74,12 @@ const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 8200;
 
-app.use(cors());
+const courseOption ={
+    origin:['http://localhost:8200','https://ecommercev2-ytjg.onrender.com'],
+    optionsSucessStatus:200,
+};
+
+app.use(cors(courseOption));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "../build")));
 

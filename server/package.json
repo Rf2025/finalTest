@@ -9,6 +9,13 @@
     
 
 
+"cors": "^2.8.5",
+    
+
+
+    
+
+
 "dotenv": "^16.4.5",
     
 
@@ -34,7 +41,20 @@
     
 
 
-},"scripts": {
-    "start": "node backEnd.js"
+},
+    
+
+
+"scripts": {
+    
+
+
+    
+
+
+"start": "node backEnd.js"
+    
+
+
 }
 }

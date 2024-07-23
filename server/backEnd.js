@@ -64,12 +64,28 @@
 
 
 
+
+
+
+
 const express = require('express');
 const mysql = require('mysql2');
 require('dotenv').config();
+const path = require('path');
+
 
 const app = express();
 const PORT = process.env.PORT || 8200;
+const cors = require('cors');
+app.use(cors());
+app.use(express.json());
+app.use(express.static(path.join(__dirname,"build")))
+
+
+
+
+
+
 
 // Create connection to database
 const connection = mysql.createConnection({
@@ -88,14 +104,6 @@ connection.connect((err) => {
     }
 });
 
-// permissions to set header to avoid invalid host header error
-app.use((req, res, next) => {
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
-    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
-    res.setHeader('Access-Control-Allow-Credentials', true);
-    next();
-});
 
 
 // Route to fetch products from the database
@@ -119,7 +127,7 @@ app.post('/form', (req, res) => {
 });
 
 
-app.use(express.static('build'));
+
 
 
 app.listen(PORT, '0.0.0.0', () => {

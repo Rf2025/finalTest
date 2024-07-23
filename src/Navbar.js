@@ -18,8 +18,8 @@ function Navbar(){
     </div>
     <ul>
 <li><a className={navCSS.navLinks} href="/">Home</a></li>
-<li><a className={navCSS.navLinks} href="/products">Products</a></li>
-<li><a className={navCSS.navLinks} href="/contact">Contact</a></li>
+<li><a className={navCSS.navLinks} href="/Products">Products</a></li>
+<li><a className={navCSS.navLinks} href="/Contact">Contact</a></li>
     </ul>
 <button className={navCSS.menuBtn}><FontAwesomeIcon icon={faBars}   alt="menu-icon"/></button>
   </nav>

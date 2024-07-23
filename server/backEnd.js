@@ -81,7 +81,7 @@ const courseOption ={
 
 app.use(cors(courseOption));
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "../build")));
+app.use(express.static(path.join(__dirname, "build")));
 
 // Create connection to database
 const connection = mysql.createConnection({
@@ -112,20 +112,6 @@ app.get('/product/items', (req, res) => {
         }
     });
 });
-
-app.get('*',(req,res)=>{
-    res.sendFile(path.join(__dirname, "../build/index.html"))
-});
-
-
-
-
-
-
-
-
-
-
 
 app.post('/form', (req, res) => {
     const data = req.body;

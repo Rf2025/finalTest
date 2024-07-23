@@ -1,6 +1,6 @@
 
 // import { useState } from 'react'
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import React from 'react';
 import navCSS from './Nav.module.css'
 import logo from './silogo.jpeg'
@@ -13,13 +13,13 @@ function Navbar(){
     return(
 <header>
 <nav className={navCSS.navbar}>
-    <div className={navCSS.logoContainer} alt='everything-si-logo'>
-  <a href="/home">  <img src={logo}  className={navCSS.logoImg}/></a>
+    <div className={navCSS.logoContainer} >
+      <Link to='/'><img src={logo} alt='everything-si-logo' className={navCSS.logoImg} /></Link>
     </div>
     <ul>
-<li><a className={navCSS.navLinks} href="/">Home</a></li>
-<li><a className={navCSS.navLinks} href="/Products">Products</a></li>
-<li><a className={navCSS.navLinks} href="/Contact">Contact</a></li>
+        <Link to='/'><li className={navCSS.navLinks}>Home</li></Link>
+        <Link to='/Products'><li className={navCSS.navLinks}>Products</li></Link>
+        <Link to='/Contact'><li className={navCSS.navLinks}>Contact</li></Link>
     </ul>
 <button className={navCSS.menuBtn}><FontAwesomeIcon icon={faBars}   alt="menu-icon"/></button>
   </nav>

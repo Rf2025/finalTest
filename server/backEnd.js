@@ -65,27 +65,18 @@
 
 
 
-
-
-
 const express = require('express');
 const mysql = require('mysql2');
 require('dotenv').config();
 const path = require('path');
-
+const cors = require('cors');
 
 const app = express();
 const PORT = process.env.PORT || 8200;
-const cors = require('cors');
+
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname,"build")))
-
-
-
-
-
-
+app.use(express.static(path.join(__dirname, "build")));
 
 // Create connection to database
 const connection = mysql.createConnection({
@@ -104,8 +95,6 @@ connection.connect((err) => {
     }
 });
 
-
-
 // Route to fetch products from the database
 app.get('/product/items', (req, res) => {
     connection.query('SELECT product_name, product_description, product_image, product_price, setup_type FROM products', (err, results) => {
@@ -119,17 +108,14 @@ app.get('/product/items', (req, res) => {
     });
 });
 
-
 app.post('/form', (req, res) => {
     const data = req.body;
     console.log('User data:', data);
     res.send('Received user data');
 });
 
-
-
-
-
-app.listen(PORT, '0.0.0.0', () => {
+app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
+
+

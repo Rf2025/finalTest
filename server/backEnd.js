@@ -76,7 +76,7 @@ const PORT = process.env.PORT || 8200;
 
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "build")));
+app.use(express.static(path.join(__dirname, "../build")));
 
 // Create connection to database
 const connection = mysql.createConnection({

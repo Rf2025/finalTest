@@ -108,6 +108,20 @@ app.get('/product/items', (req, res) => {
     });
 });
 
+app.get('*',(req,res)=>{
+    res.sendFile(path.join(__dirname, "../build"))
+});
+
+
+
+
+
+
+
+
+
+
+
 app.post('/form', (req, res) => {
     const data = req.body;
     console.log('User data:', data);

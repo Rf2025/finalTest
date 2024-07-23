@@ -15,10 +15,10 @@ function Navbar(){
 <header>
   <nav className={navCSS.navbar}>
     <div className={navCSS.logoContainer} alt='everything-si-logo'>
-    <Link to='/Home'><img src={logo} alt="everything-si logo" className={navCSS.logoImg}/></Link>
+    <Link to='/'><img src={logo} alt="everything-si logo" className={navCSS.logoImg}/></Link>
     </div>
     <ul>
-      <Link to='/Home'><li>Home</li></Link>
+      <Link to='/'><li>Home</li></Link>
       <Link to='/Products'><li>Products</li></Link>
       <Link to='/Contact'><li>Contact</li></Link>
     </ul>

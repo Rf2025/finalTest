@@ -15,12 +15,12 @@ function Navbar(){
 <header>
   <nav className={navCSS.navbar}>
     <div className={navCSS.logoContainer} alt='everything-si-logo'>
-    <Link to='/'><a href="/home">  <img src={logo} alt="everything-si logo" className={navCSS.logoImg}/></a></Link>
+    <Link to='/'><img src={logo} alt="everything-si logo" className={navCSS.logoImg}/></Link>
     </div>
     <ul>
-      <Link to='/'><li><a className={navCSS.navLinks} href="/">Home</a></li></Link>
-      <Link to='/Products'><li><a className={navCSS.navLinks} href="/Products">Products</a></li></Link>
-      <Link to='/Contact'><li><a className={navCSS.navLinks} href="/Contact">Contact</a></li></Link>
+      <Link to='/'><li>Home</li></Link>
+      <Link to='/Products'><li>roducts</li></Link>
+      <Link to='/Contact'><li>Contact</li></Link>
     </ul>
 <button className={navCSS.menuBtn}><FontAwesomeIcon icon={faBars}   alt="menu-icon"/></button>
   </nav>

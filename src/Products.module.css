@@ -3,8 +3,8 @@
     row-gap:5%;
     column-gap:1%;
     margin-bottom: 30px;
-    background-color:#f8f9fa;
-    width: 90%;
+    /* background-color:#f8f9fa; */
+    width: 95%;
     justify-content: center;
     grid-template-columns: repeat(3,300px);
     grid-template-rows: repeat(4,400px);
@@ -124,3 +124,58 @@ border: #272d33;
     padding:.5rem;
     margin: .2rem;
 }
+
+
+/* media queries */
+
+/* tablet */
+@media screen and (max-width: 1106px) {
+    .productContainer {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto;
+      gap: 2rem;
+    }
+  
+    .productContent {
+      width: 90%;
+      margin: 0;
+    }
+  }
+
+/* phone */
+  @media screen and (max-width: 375px) {
+    .productContainer {
+      grid-template-columns: 1fr;
+      width: 95%;
+      margin-left: 2.5%;
+      gap: 1.5rem;
+    }
+  
+    .productContent {
+      height: auto;
+      padding: 1.5rem;
+    }
+  
+    .productImage {
+      height: 8rem;
+      width: 11rem;
+    }
+  
+    .addBtn {
+      width: 100%;
+    }
+  
+    .filterContainer {
+      padding: 1rem;
+    }
+  
+    .selectBtn {
+      flex-direction: column;
+      padding-top: 1.5rem;
+    }
+  
+    .buildBtn {
+      width: 100%;
+      margin: 0.5rem 0;
+    }
+  }

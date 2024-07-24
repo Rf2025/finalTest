@@ -23,9 +23,9 @@ function Contact() {
             textarea.style.border = '1px solid red';
             textarea.placeholder = 'Please fill out this field';
 
-            return false; // Return false to indicate form validation failed
+            return false; 
         } else {
-            return true; // Return true to indicate form validation passed
+            return true; 
         }
     };
 
@@ -57,9 +57,9 @@ function Contact() {
     const handleForm = async (event) => {
         event.preventDefault();
 
-        // Validate the form before proceeding
+   
         if (!validateForm()) {
-            return; // Exit early if form validation fails
+            return;
         }
 
         let form = event.target;
@@ -79,13 +79,12 @@ function Contact() {
                 throw new Error('Network response was not ok.');
             }
 
-            // Handle successful form submission (e.g., show success message)
             alert('Thank you for contacting us! We will get back to you shortly.');
             resetForm(); // Reset the form after successful submission
 
         } catch (error) {
             console.error('Error:', error);
-            // Handle error (e.g., show error message)
+          
             alert('There was an error submitting your form. Please try again later.');
         }
     };

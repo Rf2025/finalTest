@@ -36,7 +36,14 @@
     border-color:black;
 }
 
-
+textarea input{
+       width:55%;
+    height:3rem;
+    margin: 2rem;
+    padding: .7rem;
+    border-radius: .2rem;
+    border-color:black;
+}
 
 
 
@@ -82,3 +89,51 @@ margin:1rem;
 input {
     outline: none;
 }
+
+
+
+
+/* media queries */
+
+@media screen and (max-width: 1200px) {
+    .form {
+      margin: 2rem;
+    }
+    
+    .form input, textarea {
+      width: 70%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .logoImages {
+      width: 40%;
+    }
+    
+    .form {
+      margin: 1rem;
+    }
+    
+    .form input, textarea {
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .logoImages {
+      width: 60%;
+    }
+    
+    .form {
+      margin: 0.5rem;
+    }
+    
+    .form input, textarea {
+      width: 90%;
+      margin: 1rem;
+    }
+    
+    .subButton, .resetButton {
+      padding: 0.5rem;
+    }
+  }

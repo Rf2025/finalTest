@@ -4,8 +4,6 @@ import {Link} from 'react-router-dom'
 import React from 'react';
 import navCSS from './Nav.module.css'
 import logo from './silogo.jpeg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -21,7 +19,7 @@ function Navbar(){
         <Link to='/Products'><li className={navCSS.navLinks}>Products</li></Link>
         <Link to='/Contact'><li className={navCSS.navLinks}>Contact</li></Link>
     </ul>
-<button className={navCSS.menuBtn}><FontAwesomeIcon icon={faBars}   alt="menu-icon"/></button>
+
   </nav>
 </header>
     )

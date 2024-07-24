@@ -3,7 +3,7 @@
 
 .videoContainer{
       width:100%;
-      height:55rem;
+      height:auto;
       background-color: #F0F0F0
 
 
@@ -18,7 +18,9 @@
   
 } 
 
-
+.introText{
+    padding: .2rem;
+}
 
 .aboutSection{
     
@@ -30,6 +32,7 @@
     justify-content: center;
     background-color:#f8f9fa;
     
+    
 }
 
 
@@ -39,14 +42,15 @@
     
     
     background-color: #F0F0F0;
-    width:40%;
-    border:1px solid black;
+    width:70%;
+    border-radius: .3rem;
     height: 20rem;
+    padding: .5rem;
 }
 
 
 .aboutImg{
-    width:25%;
+    width:15%;
 }
 
 
@@ -69,3 +73,112 @@
     width: 100%;
     justify-content: center;
 }
+
+.heading4{
+    
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+
+h4{
+    padding: 1.6rem;
+    text-decoration: underline;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    text-underline-offset:0.1rem;
+
+}
+
+
+.itemButton{
+    background-color: #cb1836;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+    width:8.5rem;
+    padding:.5rem;
+}
+
+
+
+
+/* media queries */
+
+
+
+
+  
+  @media (max-width: 480px) {
+    .aboutImg {
+      max-width: 60%;
+    }
+  
+    .introText {
+      font-size: 0.9rem;
+    }
+
+    .itemButton{
+        margin: .2rem;
+    }
+
+  }
+  
+
+  
+  @media (max-width: 740px) {
+    .textContainer{
+        width: 100%;
+    }
+    .introText {
+        font-size: 0.8rem;
+      }
+  
+  
+      .itemButton{
+        margin: .2rem;
+    }
+  
+
+  }
+
+ 
+
+  @media (max-width: 605px) {
+    .textContainer{
+        width: 100%;
+    }
+    .introText {
+        font-size: 0.6rem;
+      }
+  h1{
+    font-size: medium;
+  }
+
+
+  .aboutImg {
+    max-width: 60%;
+  }
+
+  }
+
+
+
+  @media (max-width: 375px) {
+    .textContainer{
+        width: 100%;
+    }
+   .intro{
+    width: 100%;
+   }
+   .aboutImg {
+    width: 60%;
+  }
+.itemButton{
+    width:7.5rem;
+    margin: 1.2rem;
+    height: 2.5rem;
+}
+  }

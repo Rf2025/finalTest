@@ -96,3 +96,38 @@ width:100%;
 }
 
 
+
+
+/* media queries */
+
+@media screen and (max-width: 468px) {
+  .footerContainer {
+    font-size: 14px;
+    gap: 0.7rem;
+    padding: .5rem;
+    
+  }
+
+  footer {
+    padding: 1rem;
+  }
+
+  .footerLinks {
+    margin: 1.5rem;
+  }
+
+  .input {
+    width: 60%;
+  }
+
+  .subBtn {
+    padding: 0.4rem;
+    font-size: 14px;
+  }
+  h3{
+    font-size: medium;
+  }
+ a{
+    font-size: smaller;
+ }
+}

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c8e1e27.css",
-    "main.js": "/static/js/main.a44f5113.js",
+    "main.css": "/static/css/main.04b4ffab.css",
+    "main.js": "/static/js/main.89339024.js",
     "static/media/siDriving.mp4": "/static/media/siDriving.23314ffb6224bb7e42ec.mp4",
     "static/media/Stage1.webp": "/static/media/Stage1.d748e9763035f961ac79.webp",
     "static/media/prlLogo.jpeg": "/static/media/prlLogo.00ac2e444c99c5d6da86.jpeg",
@@ -16,11 +16,11 @@
     "static/media/GarretMotion.jpg": "/static/media/GarretMotion.373116231c39749b4728.jpg",
     "static/media/hybridRacing.webp": "/static/media/hybridRacing.7338eddc9f475bf7b1f3.webp",
     "index.html": "/index.html",
-    "main.4c8e1e27.css.map": "/static/css/main.4c8e1e27.css.map",
-    "main.a44f5113.js.map": "/static/js/main.a44f5113.js.map"
+    "main.04b4ffab.css.map": "/static/css/main.04b4ffab.css.map",
+    "main.89339024.js.map": "/static/js/main.89339024.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c8e1e27.css",
-    "static/js/main.a44f5113.js"
+    "static/css/main.04b4ffab.css",
+    "static/js/main.89339024.js"
   ]
 }

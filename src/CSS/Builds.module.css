@@ -9,7 +9,7 @@
     padding-top:11rem;
     margin: 10px;
     background-color: white;
-    overflow: scroll;
+    overflow:scroll;
 }
 .cardComponent h4{
     font-weight: bold;
@@ -111,4 +111,23 @@
     padding:.4rem;
    }
 
+  }
+
+
+
+  @media (max-width: 375px) {
+
+    .cardComponent h4{
+      font-size:1.2rem;
+  }
+  .cardComponent{
+    padding: .3rem;
+    margin:2rem;
+  }
+  .Resourceimg{
+    width:100%;
+    height:5.5rem;
+    border-radius: 8px;
+ 
+ }
   }

@@ -1,7 +1,7 @@
-import ktuner from "./ktune.avif"
-import cobra from './Cobra.jpg'
-import tune from './Stage1.webp'
-import buildCss from './Builds.module.css'
+import ktuner from "./images/ktune.avif"
+import cobra from './images/Cobra.jpg'
+import tune from './images/Stage1.webp'
+import buildCss from './CSS/Builds.module.css'
 import { Link } from 'react-router-dom';
 
 const card = ()=>{
@@ -14,7 +14,7 @@ const card = ()=>{
                <h4>KTuner V2.0</h4>
             <h5>Price:$649.00 USD</h5>
             <Link to='/Products'>
-            <button className={buildCss.itemButton}>Realibale tunning solutions</button>
+            <button className={buildCss.itemButton}>Realiable tunning solutions</button>
             </Link>
         </div>
         <div className={buildCss.cardComponent}>

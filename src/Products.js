@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ProductCss from './Products.module.css';
+import ProductCss from './CSS/Products.module.css';
 import Dropdown from 'react-bootstrap/Dropdown';
 
 function Products() {

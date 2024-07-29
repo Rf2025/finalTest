@@ -2,8 +2,8 @@
 // import { useState } from 'react'
 import {Link} from 'react-router-dom'
 import React from 'react';
-import navCSS from './Nav.module.css'
-import logo from './silogo.jpeg'
+import navCSS from './CSS/Nav.module.css'
+import logo from './images/silogo.jpeg'
 
 
 

@@ -1,6 +1,6 @@
-import Video from './siDriving.mp4'
-import HomeCss from './Home.module.css'
-import IntroLogo from './silogo.jpeg'
+import Video from './images/siDriving.mp4'
+import HomeCss from './CSS/Home.module.css'
+import IntroLogo from './images/silogo.jpeg'
 import Slide from './Slider.js'
 import Card from './Builds.js'
 import { Link } from 'react-router-dom';

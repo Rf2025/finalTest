@@ -6,6 +6,7 @@ import facebook from './images/facebook.png'
 import instagram from './images/instagram.png'
 import twitter from './images/twitter.jpeg'
 import logo from './images/silogo.jpeg'
+import {Link} from 'react-router-dom'
 function Footer() {
   return (
     <footer>
@@ -24,29 +25,29 @@ function Footer() {
 
         <div className={footerCSS.footerLinks}>
           <div className={footerCSS.footerContainer}>
-            <h3>Policies</h3>
-            <a href='/'>Privacy Policy</a>
-            <a href='/'>Terms and Conditions</a>
-            <a href='/'>Shipping</a>
-            <a href='/'>Returns</a>
-            <a href='/'>Cancellation Policy</a>
+         <h3>Policies</h3>
+          <Link to='/'>Privacy Policy</Link>
+          <Link to='/'>Terms and Conditions</Link>
+          <Link to='/'>Shipping</Link>
+          <Link to='/'>Returns</Link>
+          <Link to='/'>Cancellation Policy</Link>
           </div>
 
           <div className={footerCSS.footerContainer}>
             <h3>Site Links</h3>
-            <a href='/'>Home</a>
-            <a href='/products'>Products</a>
-            <a href='/contact'>Contact</a>
-            <a href='/'>Custom Tunes</a>
-            <a href='/'>Careers</a>
-            <a href='/'>Car Meets</a>
+            <Link to='/'>Home</Link>
+           <Link to='/Products'>Products</Link>
+           <Link to='/Contact'>Contact</Link>
+           <Link to='/'>Custom Tunes</Link>
+           <Link to='/'>Careers</Link>
+           <Link to='/'>Car Meets</Link>
           </div>
 
           <div className={footerCSS.footerContainer}>
             <h3>Tech Tips</h3>
-            <a href='/'>How to modify your car</a>
-            <a href='/'>Choosing the right tune</a>
-            <a href='/'>Custom E-tunes</a>
+            <Link to='/'>How to modify your car</Link>
+            <Link to='/'>Choosing the right tune</Link>
+            <Link to='/'>Custom E-tunes</Link>
           </div>
         </div>
       </div>

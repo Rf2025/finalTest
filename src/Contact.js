@@ -67,7 +67,7 @@ function Contact() {
         let formDataObj = Object.fromEntries(formData.entries());
         
         try {
-            const response = await fetch('http://localhost:800/form', {
+            const response = await fetch('/form', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -80,7 +80,7 @@ function Contact() {
             }
 
             alert('Thank you for contacting us! We will get back to you shortly.');
-            resetForm(); // Reset the form after successful submission
+            resetForm(); 
 
         } catch (error) {
             console.error('Error:', error);
@@ -89,6 +89,8 @@ function Contact() {
         }
     };
 
+
+    
     return (
         <div className={contactCss.formContainer}>
             <form onSubmit={handleForm} className={contactCss.form}>

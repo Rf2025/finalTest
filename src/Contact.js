@@ -89,8 +89,6 @@ function Contact() {
         }
     };
 
-
-    
     return (
         <div className={contactCss.formContainer}>
             <form onSubmit={handleForm} className={contactCss.form}>

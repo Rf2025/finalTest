@@ -36,8 +36,8 @@ function Footer() {
           <div className={footerCSS.footerContainer}>
             <h3>Site Links</h3>
             <Link to='/'>Home</Link>
-           <Link to='/Products'>Products</Link>
-           <Link to='/Contact'>Contact</Link>
+           <Link to="/Products">Products</Link>
+           <Link to="/Contact">Contact</Link>
            <Link to='/'>Custom Tunes</Link>
            <Link to='/'>Careers</Link>
            <Link to='/'>Car Meets</Link>

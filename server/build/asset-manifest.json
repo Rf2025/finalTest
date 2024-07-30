@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.7bd1775a.css",
+    "main.css": "/static/css/main.25cdf7b4.css",
     "main.js": "/static/js/main.4d3fe59c.js",
     "static/media/siDriving.mp4": "/static/media/siDriving.23314ffb6224bb7e42ec.mp4",
     "static/media/Stage1.webp": "/static/media/Stage1.d748e9763035f961ac79.webp",
@@ -16,11 +16,11 @@
     "static/media/GarretMotion.jpg": "/static/media/GarretMotion.373116231c39749b4728.jpg",
     "static/media/hybridRacing.webp": "/static/media/hybridRacing.7338eddc9f475bf7b1f3.webp",
     "index.html": "/index.html",
-    "main.7bd1775a.css.map": "/static/css/main.7bd1775a.css.map",
+    "main.25cdf7b4.css.map": "/static/css/main.25cdf7b4.css.map",
     "main.4d3fe59c.js.map": "/static/js/main.4d3fe59c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bd1775a.css",
+    "static/css/main.25cdf7b4.css",
     "static/js/main.4d3fe59c.js"
   ]
 }

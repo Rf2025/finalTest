@@ -3,13 +3,11 @@
     row-gap:5%;
     column-gap:1%;
     margin-bottom: 30px;
-    /* background-color:#f8f9fa; */
-    width: 95%;
+    width:100%;
     justify-content: center;
     grid-template-columns: repeat(3,300px);
     grid-template-rows: repeat(4,400px);
-    margin-left: 2%;
-   /* margin-top:7%; */
+    text-align:  center;
    overflow: scroll;
    padding-bottom: 3rem;
    object-fit: contain;
@@ -27,7 +25,6 @@
     padding:3rem;
     margin: 20px;
     background-color: rgb(221, 220, 220);
-    padding-bottom:8rem;
     text-align: center;
     object-fit: contain;
     
@@ -134,12 +131,14 @@ border: #272d33;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: auto;
       gap: 2rem;
+     
     }
   
     .productContent {
-      width: 90%;
-      margin: 0;
+      width: 100%;
+      padding: 0 50px;
     }
+    
   }
 
 /* phone */
@@ -155,6 +154,11 @@ border: #272d33;
       height: auto;
       padding: 1.5rem;
     }
+    
+    .productContent{
+      margin-left: 1rem;
+    }
+
   
     .productImage {
       height: 8rem;

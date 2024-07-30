@@ -84,11 +84,12 @@
     .navLinks{
         color: whitesmoke;
         text-decoration: none;
-        font-size:.5rem;
+        font-size:.7rem;
         width: 100%;
-        padding: .3rem;
+        padding: .4rem;
         align-items: center;
         height: 100%;
+        
       
     }
     ul{

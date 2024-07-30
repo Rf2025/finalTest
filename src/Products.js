@@ -5,7 +5,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 function Products() {
     const [items, setItems] = useState([]);
     
-
+//Fetch products from back end
     useEffect(() => {
         fetch('/product/items')
             .then(res => res.json())

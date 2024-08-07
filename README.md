@@ -1,7 +1,10 @@
 # Getting Started with Create React App
 This is is fullstack web application, built with node js,react and sql for the database
 
+This project is a mock ecomerce website, built with plain react js, node js, react boostrap and css, 
+the product section display products that are retreived from a SQL database, the project is also hosted in render.com
 
+Below are the dependecies used in order to use the app.
 
 
 # Dependencies FRONT END
@@ -13,10 +16,6 @@ This is is fullstack web application, built with node js,react and sql for the d
     "react-slideshow-image": "^4.3.1"
  
  
-
-
-
-
  # Dependencies BACK END
 
 

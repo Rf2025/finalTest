@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 This is is fullstack web application, built with node js,react and sql for the database
 
-This project is a mock ecomerce website that sells car performaance parts it is built with plain react js, node js, react boostrap and css, 
+This project is a mock ecomerce website that sells car performance parts it is built with plain react js, node js, react boostrap and css, 
 the product section display products that are retreived from a SQL database.
 
 Features: The website allows the filtering of products, we can sort porducts by price low to high, high to low, and a-z,
